@@ -1,0 +1,6 @@
+fpIn = open('BrexitTweets.snstrain_00.wordembbed.csv','rt',encoding = 'utf8')
+fpOut = open('aline.txt','wt',encoding = 'utf8')
+aline = fpIn.readline()
+fpOut.write(aline)
+fpIn.close()
+fpOut.close()
