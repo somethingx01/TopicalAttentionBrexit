@@ -1,9 +1,6 @@
 # TopicalAttentionBrexit
 An opinion dynamic tracing model on dataset I
-
-# OpinionDynamicsBrexit
-An opinion dynamic tracing model on dataset I
-For code on dataset II please redirect to 
+For code on dataset II please redirect to https://github.com/somethingx01/TopicalAttentionElection
 
 =============
 Downloading large datafiles
