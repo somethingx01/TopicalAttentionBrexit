@@ -17,7 +17,7 @@ The params are essential for setting the settings.py(e.g., Traning_Instance_Coun
 Download saved model
 
 #model
-'model' is the file name. 'model' is the trained and saved model, you can load it to reproduce the experiment results. Click xxxxxxxx to download the 'model' file. You should place it in the ./save/0/ directory so that the default 'prediction' function in train.py can detect it. 
+'model' is the file name. 'model' is the trained and saved model, you can load it to reproduce the experiment results. Click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/model to download the 'model' file. You should place it in the ./save/0/ directory so that the default 'prediction' function in train.py can detect it. 
 
 -------------
 Calculate dataset statistics
