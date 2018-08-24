@@ -12,6 +12,7 @@ This repository should include preprocessed datasets organized in epochs, which 
 ## BrexitParams.7z
 The params are essential for setting the settings.py(e.g., Traning_Instance_Count, Testing_Instance_Count) every time you perform training or prediction. Please click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/BrexitParams.7z to download the BrexitParams.7z file.
 
+HaHA
 -------------
 Download saved model
 
@@ -21,20 +22,20 @@ Download saved model
 -------------
 Calculate dataset statistics
 
-#Dataset Statistics:
+## Dataset Statistics:
 Run the main_sentiment_instance_counts_epochs.py. Note that the dataset epochs are organized in an time-descending order. That is, SNSTtrain_08 for epoch 0, SNStrain_07 for epoch 1, etc.
 
 Training and prediction
 -------------
 Training
 
-#A Quick Start
+## A Quick Start
 If your machine is not eligible for a training (CUDA 7.0+ with 8G+GPURAM, 100G RAM), then loading a trained model ( by commenting train() ) and performing prediction would be suggested, whether on CPU or GPU.
 
 -------------
 Prediction
 
-#Predict an epoch from trained models:
+## Predict an epoch from trained models:
 The defult code is predicting EPOCH_8.
 
-#Understandable Topics:
+## Understandable Topics:
