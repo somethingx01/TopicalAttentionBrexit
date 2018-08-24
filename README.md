@@ -12,7 +12,6 @@ This repository should include preprocessed datasets organized in epochs, which 
 ## BrexitParams.7z
 The params are essential for setting the settings.py(e.g., Traning_Instance_Count, Testing_Instance_Count) every time you perform training or prediction. Please click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/BrexitParams.7z to download the BrexitParams.7z file.
 
-HaHA
 -------------
 Download saved model
 
