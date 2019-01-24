@@ -7,16 +7,16 @@ Downloading large datafiles
 Download dataset
 
 ## BrexitDataset.7z
-This repository should include preprocessed datasets organized in epochs, which are essential for training and prediction. However, github doesn't allow large files to be uploaded, so you have to manually download the dataset and place them in the ./datasets/ directory. Please click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/BrexitDataset.7z to download the BrexitDataset.7z file.
+This repository should include preprocessed datasets organized in epochs, which are essential for training and prediction. However, github doesn't allow large files to be uploaded, so you have to manually download the dataset and place them in the ./datasets/ directory. Please click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/BrexitDataset.7z to download the BrexitDataset.7z file.
 
 ## BrexitParams.7z
-The params are essential for setting the settings.py(e.g., Traning_Instance_Count, Testing_Instance_Count) every time you perform training or prediction. Please click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/BrexitParams.7z to download the BrexitParams.7z file.
+The params are essential for setting the settings.py(e.g., Traning_Instance_Count, Testing_Instance_Count) every time you perform training or prediction. Please click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/BrexitParams.7z to download the BrexitParams.7z file.
 
 -------------
 Download saved model
 
 ## model
-'model' is the file name. 'model' is the trained and saved model, you can load it to reproduce the experiment results. Click https://s3-ap-southeast-1.amazonaws.com/somethingx86dynamics/dataset_brexit_and_params/model to download the 'model' file. You should place it in the ./save/0/ directory so that the default 'prediction' function in train.py can detect it. 
+'model' is the file name. 'model' is the trained and saved model, you can load it to reproduce the experiment results. Click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/model to download the 'model' file. You should place it in the ./save/0/ directory so that the default 'prediction' function in train.py can detect it. 
 
 -------------
 Calculate dataset statistics
