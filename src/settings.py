@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 
 #ROOT_DIR = '.' #the root path, currently is the code execution path
-ROOT_DIR = '/media/data1/lixing/2017_2018_2_Aston/TopicalAttentionBrexit'
+ROOT_DIR = '/media/data1/TopicalAttentionBrexit'
 
 TRAIN_SET_PATH = '%s/datasets/BrexitTweets.snstrain_08.wordembbed.csv'%ROOT_DIR
 TEST_SET_PATH = '%s/datasets/BrexitTweets.snstrain_00.wordembbed.csv'%ROOT_DIR
