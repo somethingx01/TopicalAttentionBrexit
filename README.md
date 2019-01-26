@@ -25,7 +25,7 @@ Calculate dataset statistics
 Run the main_sentiment_instance_counts_epochs.py. Note that the dataset epochs are organized in an time-descending order. That is, SNSTtrain_08 for epoch 0, SNStrain_07 for epoch 1, etc.
 
 ## Text Content:
-For dataset text content purpuses, please redirect to https://github.com/somethingx01/TwitterCrawlerUsingIDs.
+For dataset text content purposes, please redirect to https://github.com/somethingx01/TwitterCrawlerUsingIDs.
 
 Training and prediction
 -------------
