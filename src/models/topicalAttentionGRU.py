@@ -48,7 +48,7 @@ class TopicalAttentionGRU(torch.nn.Module):
 
         self.rnn_tweet_hidden_size = param_rnn_tweet_hidden_size
         self.rnn_tweet_layer_count = 1
-        self.rnn_tweet = torch.nn.LSTM( self.word_embed_size, self.rnn_tweet_hidden_size, self.rnn_tweet_layer_count, dropout = 0.0, batch_first=True, bidirectional=False )
+        self.rnn_tweet = torch.nn.LSTM( self.word_embed_size, self.rnn_tweet_hidden_size, self.rnn_tweet_layer_count, dropout = 0.0, batch_first=False, bidirectional=False )
         
         if param_on_cuda:
             self.ids_seq_last = torch.autograd.Variable( torch.LongTensor( [ self.user_self_tweets -1 ] ) ).cuda()
@@ -84,7 +84,7 @@ class TopicalAttentionGRU(torch.nn.Module):
 
         self.rnn_hidden_size = param_rnn_hidden_size # hidden size: the vector size of output for each time, It's a vector!
         self.rnn_layer_count = 1 #constant, I haven't implemented the dynamic programming yet, but it defines the RNN LayerNum
-        self.rnn = torch.nn.GRU( self.word_embed_size + self.topic_embed_size , self.rnn_hidden_size ,self.rnn_layer_count , dropout = 0.0 , batch_first = True , bidirectional = False ) # batchfirst: the datasize is [ batch_size, seq , feature ]
+        self.rnn = torch.nn.GRU( self.word_embed_size + self.topic_embed_size , self.rnn_hidden_size ,self.rnn_layer_count , dropout = 0.0 , batch_first = False , bidirectional = False ) # batchfirst: the datasize is [ batch_size, seq , feature ]
         self.linear = torch.nn.Linear( self.rnn_hidden_size , self.class_count )
         self.logsoftmax = torch.nn.LogSoftmax( dim = 1) # dim= 0 means sum( a[i][1][3]) = 1
 
