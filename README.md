@@ -33,7 +33,7 @@ Training
 
 ## A Quick Start
 Call train() to perform training, whether on CPU or GPU.
-[//]: If your machine is not eligible for a training (CUDA 7.0+ with 8G+GPURAM, 100G RAM), then loading a trained model ( by commenting call train() and perform training, whether on CPU or GPU.
+<!--- # "If your machine is not eligible for a training (CUDA 7.0+ with 8G+GPURAM, 100G RAM), then loading a trained model ( by commenting call train() and perform training, whether on CPU or GPU. --->
 
 -------------
 Prediction
