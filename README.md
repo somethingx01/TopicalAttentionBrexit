@@ -32,10 +32,11 @@ Training and prediction
 Training
 
 ## A Quick Start
-If your machine is not eligible for a training (CUDA 7.0+ with 8G+GPURAM, 100G RAM), then loading a trained model ( by commenting train() ) and performing prediction would be suggested, whether on CPU or GPU.
+Call train() to perform training, whether on CPU or GPU.
+[//]: If your machine is not eligible for a training (CUDA 7.0+ with 8G+GPURAM, 100G RAM), then loading a trained model ( by commenting call train() and perform training, whether on CPU or GPU.
 
 -------------
 Prediction
 
 ## Predict an epoch from trained models:
-The defult code is predicting EPOCH_8.
+The defult code is predicting EPOCH_8 by by commenting train().
