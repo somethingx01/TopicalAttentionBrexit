@@ -43,7 +43,7 @@ The defult code is predicting EPOCH_8 by by commenting train().
 
 Bib entry
 -------------
-Please cite with the below bib entry if you use the code in your research:
+Please cite with the below bib entry if you reference the code in your research:
 ```
 @article{zhu2019neural,
   title={Neural opinion dynamics model for the prediction of user-level stance dynamics},
