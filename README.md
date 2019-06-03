@@ -8,7 +8,7 @@ Download dataset
 
 ## BrexitDataset.7z
 
-* Epoched dataset
+* Epoched dataset \\ 
 This repository should include preprocessed datasets organized in epochs, which are essential for training and prediction. However, github doesn't allow large files to be uploaded, so you have to manually download the dataset and place them in the ./datasets/ directory. Please click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/BrexitDataset.7z to download the BrexitDataset.7z file.
 
 * Tweets
