@@ -8,6 +8,9 @@ Download dataset
 
 ## BrexitDataset.7z
 This repository should include preprocessed datasets organized in epochs, which are essential for training and prediction. However, github doesn't allow large files to be uploaded, so you have to manually download the dataset and place them in the ./datasets/ directory. Please click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/BrexitDataset.7z to download the BrexitDataset.7z file.
+If you are looking for the original tweets, i.e., 363961 tweets as mentioned in Table 1, please download the tweet IDs by https://datasetandparams.s3-ap-southeast-1.amazonaws.com/dataset_brexit_and_params/BrexitTweetIDs.txt
+If you are looking for the original user-tweet mapping, i.e., 38335 users and their tweets, please download the userID - tweetIDs by https://datasetandparams.s3-ap-southeast-1.amazonaws.com/dataset_brexit_and_params/Brexit_userid2tweetids_mosaiceduserid2tweetid Be aware that the userIDs are masked. That is to say, you may need to crawl the tweets to get the true auther/user id. 
+If you are looking for the original user-friend relationships, i.e., 38335 users and their friends, please download the userID - friendIDs by https://datasetandparams.s3-ap-southeast-1.amazonaws.com/dataset_brexit_and_params/Brexit_userid2friendids_relationshipmosaiced
 
 ## BrexitParams.7z
 The params are essential for setting the settings.py(e.g., Traning_Instance_Count, Testing_Instance_Count) every time you perform training or prediction. Please click https://s3-ap-southeast-1.amazonaws.com/datasetandparams/dataset_brexit_and_params/BrexitParams.7z to download the BrexitParams.7z file.
